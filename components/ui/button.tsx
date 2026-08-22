@@ -13,4 +13,7 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
     )
   }
 )
-export [ button ]
+
+Button.displayName = "Button"
+
+export { Button }
