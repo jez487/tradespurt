@@ -2,7 +2,7 @@
 
 import { useState } from 'react'
 import { Activity, Menu, X } from 'lucide-react'
-import { Button } from '../../ui/button'
+import { Button } from '../../components/ui/button'
 
 const navLinks = [
   { label: 'Home', href: '#home' },
