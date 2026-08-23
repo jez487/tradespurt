@@ -16,16 +16,11 @@ export async function GET() {
   }
 
   try {
-    const twelveSymbols = [
-      "UKX",
-      "MCX",
-      "SHEL:XLON",
-      "AZN:XLON",
-      "RR.:XLON",
-      "SPX",
-      "IXIC",
-      "DJI",
-    ];
+   const twelveSymbols = [
+  "AAPL",
+  "MSFT",
+  "NVDA",
+];
 
     const twelveUrl =
       `${TWELVE_DATA_URL}?symbol=${encodeURIComponent(
