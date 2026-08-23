@@ -28,6 +28,50 @@ export default function Home() {
           </a>
         </section>
 
+      
+        <section id="markets">
+  <h2>Live Markets</h2>
+
+  <p>Track key global markets and cryptocurrencies in real time.</p>
+
+  <div className="market-grid">
+    <div className="card">
+      <h3>S&P 500</h3>
+      <p>Live price coming soon</p>
+    </div>
+
+    <div className="card">
+      <h3>Nasdaq</h3>
+      <p>Live price coming soon</p>
+    </div>
+
+    <div className="card">
+      <h3>Dow Jones</h3>
+      <p>Live price coming soon</p>
+    </div>
+
+    <div className="card">
+      <h3>Bitcoin (BTC)</h3>
+      <p>Live price coming soon</p>
+    </div>
+
+    <div className="card">
+      <h3>Ethereum (ETH)</h3>
+      <p>Live price coming soon</p>
+    </div>
+
+    <div className="card">
+      <h3>XRP</h3>
+      <p>Live price coming soon</p>
+    </div>
+
+    <div className="card">
+      <h3>Cronos (CRO)</h3>
+      <p>Live price coming soon</p>
+    </div>
+  </div>
+</section>
+
         <section id="about">
           <h2>Trade Smarter</h2>
 
