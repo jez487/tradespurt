@@ -2,8 +2,8 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-background text-foreground">
       <div className="mx-auto max-w-6xl px-6 py-16">
-        <header className="mb-20 flex items-center justify-between">
-          <div className="text-xl font-bold">TradeSpurt</div>
+        <header className="flex items-center justify-between">
+          <div className="text-3xl font-bold">TradeSpurt</div>
 
           <nav className="flex gap-6 text-sm">
             <a href="#about" className="hover:underline">
@@ -19,54 +19,81 @@ export default function Home() {
         </header>
 
         <section className="py-20 text-center">
-          <h1 className="mb-6 text-5xl font-bold">
-            Spot the Move. Trade the Momentum.
-          </h1>
+          <div className="mb-6 text-5xl font-bold">
+            Spot the Move. Trade the Moment.
+          </div>
 
-          <p className="mx-auto max-w-2xl text-lg">
-            TradeSpurt provides market alerts and market-related information
-            designed to help you stay informed about significant market moves.
+          <p className="mx-auto mb-8 max-w-2xl text-lg">
+            AI-powered trading alerts and market insights designed to help you
+            identify opportunities faster and make more informed trading
+            decisions.
+          </p>
+
+          <a
+            href="#pricing"
+            className="inline-block rounded-lg bg-black px-7 py-3 font-semibold text-white"
+          >
+            View Plans
+          </a>
+        </section>
+
+        <section id="about" className="py-16 text-center">
+          <h2 className="mb-6 text-3xl font-bold">Trade Smarter</h2>
+
+          <p className="mx-auto max-w-3xl text-lg">
+            TradeSpurt uses AI-powered analysis to monitor market activity and
+            highlight potential trading opportunities. Get clear, timely
+            insights without spending hours analysing the markets yourself.
           </p>
         </section>
 
-        <section id="about" className="py-16">
-          <h2 className="mb-4 text-3xl font-semibold">TradeSpurt</h2>
-          <p className="max-w-3xl">
-            Get clear, timely market information without having to watch the
-            markets all day. TradeSpurt is designed to highlight noteworthy
-            market activity and help you identify potential opportunities.
-          </p>
+        <section id="pricing" className="py-16 text-center">
+          <h2 className="mb-10 text-3xl font-bold">Simple Pricing</h2>
+
+          <div className="mx-auto max-w-md rounded-2xl border p-8 shadow-sm">
+            <h3 className="mb-3 text-2xl font-bold">TradeSpurt Pro</h3>
+
+            <div className="mb-5 text-4xl font-bold">
+              £19.99
+              <span className="text-base font-normal"> / month</span>
+            </div>
+
+            <p className="mb-6">
+              AI-powered trading alerts, market insights and access to the
+              TradeSpurt subscriber service.
+            </p>
+
+            <a
+              href="#"
+              className="inline-block rounded-lg bg-black px-7 py-3 font-semibold text-white"
+            >
+              Get Started
+            </a>
+          </div>
         </section>
 
-        <section id="pricing" className="py-16">
-          <h2 className="mb-4 text-3xl font-semibold">Subscriptions</h2>
-          <p>
-            Subscription options are being prepared. More information will be
-            available soon.
+        <footer className="mt-16 border-t pt-8 text-center text-sm">
+          <p className="mb-4">
+            Trading involves risk. TradeSpurt provides market information and
+            alerts for informational purposes only and does not provide
+            financial advice.
           </p>
-        </section>
 
-        <footer className="mt-20 border-t pt-8 text-sm">
-          <div className="flex flex-wrap gap-6">
+          <div className="flex justify-center gap-6">
             <a href="/privacy" className="hover:underline">
               Privacy Policy
             </a>
-
             <a href="/terms" className="hover:underline">
               Terms of Service
             </a>
-
             <a href="/support" className="hover:underline">
               Support
             </a>
           </div>
 
-          <p className="mt-6">
-            TradeSpurt provides information for informational and educational
-            purposes only and does not provide financial advice.
-          </p>
+          <p className="mt-6">© 2026 TradeSpurt. All rights reserved.</p>
         </footer>
       </div>
     </main>
-  )
+  );
 }
