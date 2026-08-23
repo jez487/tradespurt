@@ -29,14 +29,45 @@ export default function Home() {
         </section>
 
       
-        <section id="markets">
+     <section id="markets">
   <h2>Live Markets</h2>
 
-  <p>Track key global markets and cryptocurrencies in real time.</p>
+  <p>Track key UK and global markets and cryptocurrencies in real time.</p>
+
+  <h3>UK Markets</h3>
 
   <div className="market-grid">
     <div className="card">
-      <h3>S&P 500</h3>
+      <h3>FTSE 100</h3>
+      <p>Live price coming soon</p>
+    </div>
+
+    <div className="card">
+      <h3>FTSE 250</h3>
+      <p>Live price coming soon</p>
+    </div>
+
+    <div className="card">
+      <h3>Shell (SHEL)</h3>
+      <p>Live price coming soon</p>
+    </div>
+
+    <div className="card">
+      <h3>AstraZeneca (AZN)</h3>
+      <p>Live price coming soon</p>
+    </div>
+
+    <div className="card">
+      <h3>Rolls-Royce (RR.)</h3>
+      <p>Live price coming soon</p>
+    </div>
+  </div>
+
+  <h3>Global Markets</h3>
+
+  <div className="market-grid">
+    <div className="card">
+      <h3>S&amp;P 500</h3>
       <p>Live price coming soon</p>
     </div>
 
@@ -49,7 +80,11 @@ export default function Home() {
       <h3>Dow Jones</h3>
       <p>Live price coming soon</p>
     </div>
+  </div>
 
+  <h3>Crypto</h3>
+
+  <div className="market-grid">
     <div className="card">
       <h3>Bitcoin (BTC)</h3>
       <p>Live price coming soon</p>
